@@ -21,7 +21,7 @@ const Beranda = () => {
         <div className="col-4 mt-4" style={{ background: "white", height: "610px" }}>
           <img src={profil} alt="" width={73} height={75} style={{ float: "left" }} />
           <h5 className="pt-3 border-bottom border-secondary" style={{ fontFamily: "Poppins", fontWeight: "600" }}>
-            Perusahaan ChatIn <br /> <p className="mt-2" style={{ fontFamily: "Poppins", fontWeight: "300", fontSize: "16px" }}>Iya, nanti interview ya, saya tunggu jam 1 siang.</p>
+            Perusahaan ChatIn <br /> <p className="mt-2" style={{ fontFamily: "Poppins", fontWeight: "300", fontSize: "16px" }}>Baik pak, terima kasih. Saya akan datang tepat waktu.</p>
           </h5>
           <img src={profil} alt="" width={73} height={75} style={{ float: "left" }} />
           <h5 className="pt-3 border-bottom border-secondary" style={{ fontFamily: "Poppins", fontWeight: "600" }}>
@@ -34,7 +34,7 @@ const Beranda = () => {
           </h5>
           <img src={profil} alt="" width={73} height={75} style={{ float: "left" }} />
           <h5 className="pt-3 border-bottom border-secondary" style={{ fontFamily: "Poppins", fontWeight: "600" }}>
-            Ulul <br /> <p className="mt-2" style={{ fontFamily: "Poppins", fontWeight: "300", fontSize: "16px" }}>Tunggu di depan ya lin!</p>
+            Ulul <br /> <p className="mt-2" style={{ fontFamily: "Poppins", fontWeight: "300", fontSize: "16px" }}>Bentar, tunggu! Aku dateng.</p>
           </h5>
         </div>
         <div className="col-8" style={{ background: "#DBDDFF", height: "670px" }}>
