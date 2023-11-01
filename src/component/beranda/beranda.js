@@ -32,7 +32,7 @@ const Beranda = () => {
             </button>
           </div>
 
-          <div>
+          <div style={{ cursor:'pointer' }}>
             <img className="ms-2" src={profil} alt="" width={73} height={75} style={{ float: "left" }} />
             <h5 className="pt-3 border-bottom border-secondary" style={{ fontFamily: "Poppins", fontWeight: "600" }}>
               Perusahaan ChatIn <br />{" "}
@@ -42,7 +42,7 @@ const Beranda = () => {
             </h5>
           </div>
 
-          <div>
+          <div style={{ cursor:'pointer' }}>
             <img className="ms-2" src={profil} alt="" width={73} height={75} style={{ float: "left" }} />
             <h5 className="pt-3 border-bottom border-secondary" style={{ fontFamily: "Poppins", fontWeight: "600" }}>
               Feysa
@@ -53,7 +53,7 @@ const Beranda = () => {
             </h5>
           </div>
 
-          <div>
+          <div style={{ cursor:'pointer' }}>
             <img className="ms-2" src={profil} alt="" width={73} height={75} style={{ float: "left" }} />
             <h5 className="pt-3 border-bottom border-secondary" style={{ fontFamily: "Poppins", fontWeight: "600" }}>
               Alfath <br />{" "}
@@ -63,7 +63,7 @@ const Beranda = () => {
             </h5>
           </div>
 
-          <div>
+          <div style={{ cursor:'pointer' }}>
             <img className="ms-2" src={profil} alt="" width={73} height={75} style={{ float: "left" }} />
             <h5 className="pt-3 border-bottom border-secondary" style={{ fontFamily: "Poppins", fontWeight: "600" }}>
               Ulul <br />{" "}
