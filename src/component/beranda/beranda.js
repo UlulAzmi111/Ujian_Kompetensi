@@ -9,22 +9,12 @@ const Beranda = () => {
         <div className="col-4" style={{ background: "#8086FF", height: "90px" }}>
           <img src={logo} alt="" width={130} style={{ paddingTop: "15px", paddingLeft: "15px" }} />
         </div>
-        <div className="pt-2 col-5 d-flex justify-content-start" style={{ background: "#8086FF", height: "90px" }}>
-          <img src={profil} alt="" width={73} height={75} />
-          <h5 className="pt-3" style={{ fontFamily: "Poppins", fontWeight: "600" }}>
-            Perusahaan ChatIn <br /> <p style={{ fontFamily: "Poppins", fontWeight: "300", fontSize: "17px" }}>Last seen today at 9.10 PM</p>
-          </h5>
-        </div>
-        <div className="col-3 ps-4 pb-s pe-4" style={{ background: "#8086FF", height: "90px", paddingTop:'33px', cursor:'pointer'}}>
-          <a href="/listuser"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="black" class="bi bi-person-plus" viewBox="0 0 16 16">
-            <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
-            <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z" />
-          </svg></a>
+        <div className="col-8" style={{ background: "#8086FF", height: "90px" }}>
         </div>
       </div>
 
       <div className="row">
-        <div className="col-4" style={{ background: "white", height: "610px" }}>
+        <div className="col-4" style={{ background: "white", height: "430px" }}>
           <div className="row mt-4 mb-3">
             <input type="text" class="col-10 ms-5 form-control" placeholder="Another User" style={{ width: "300px" }} />
             <button type="button" class="col-2 ms-2 btn btn-outline-secondary" style={{ borderRadius: "25px" }}>
@@ -33,6 +23,7 @@ const Beranda = () => {
           </div>
 
           <div style={{ cursor:'pointer' }}>
+            <a href="/chat" style={{ textDecoration:'none', color:'black'}}>
             <img className="ms-2" src={profil} alt="" width={73} height={75} style={{ float: "left" }} />
             <h5 className="pt-3 border-bottom border-secondary" style={{ fontFamily: "Poppins", fontWeight: "600" }}>
               Perusahaan ChatIn <br />{" "}
@@ -40,6 +31,7 @@ const Beranda = () => {
                 Baik pak, terima kasih. Saya akan datang tepat waktu.
               </p>
             </h5>
+            </a>
           </div>
 
           <div style={{ cursor:'pointer' }}>
@@ -73,40 +65,8 @@ const Beranda = () => {
             </h5>
           </div>
         </div>
-        <div className="col-8" style={{ background: "#DBDDFF", height: "670px" }}>
-          <div className="row me-2">
-            <div className="col-6">
-              <p className="bg-primary border border-primary text-white m-5 p-3" style={{ borderRadius: "9px", fontFamily: "Roboto" }}>
-                Selamat Pagi. Mohon maaf mengganggu waktunya pak. Apakah saya mendapat kesempatan untuk interview dengan Bapak?
-              </p>
-            </div>
-            <div className="col-6" style={{ marginTop: "180px", position: "relative" }}>
-              <p className="bg-white border border-primary text-primary mb-2 ms-5 me-5 p-3" style={{ borderRadius: "9px", fontFamily: "Roboto" }}>
-                Iya, nanti interview ya, saya tunggu jam 1 siang.
-              </p>
-            </div>
-          </div>
-          <div className="row me-2">
-            <div className="col-6" style={{ marginTop: "20px" }}>
-              <p className="bg-primary border border-primary text-white mb-2 ms-5 me-5 p-3" style={{ borderRadius: "9px", fontFamily: "Roboto" }}>
-                Baik pak, untuk interview. Bapak berkenan interview di mana?
-              </p>
-            </div>
-            <div className="col-6" style={{ marginTop: "130px", position: "relative" }}>
-              <p className="bg-white border border-primary text-primary  ms-5 me-5 p-3" style={{ borderRadius: "9px", fontFamily: "Roboto" }}>
-                Untuk interview di kantor saja ya. Saya tunggu.
-              </p>
-            </div>
-          </div>
-          <div className="row me-2">
-            <div className="col-6" style={{ marginTop: "4px" }}>
-              <p className="bg-primary border border-primary text-white mb-2 ms-5 me-5 p-3" style={{ borderRadius: "9px", fontFamily: "Roboto" }}>
-                Baik pak, terima kasih. Saya akan datang tepat waktu.
-              </p>
-            </div>
-          </div>
-          <div />
-          <input type="text" class="form-control border border-secondary" placeholder="Message" style={{ marginTop: "63px", width: "500px", borderRadius: "15px" }} />
+        <div className="col-8" style={{ background: "#DBDDFF", height: "630px" }}>
+          <input type="text" class="form-control border border-secondary" placeholder="Message" style={{ marginTop: "550px", width: "500px", borderRadius: "15px" }} />
           <div style={{ position: "relative", bottom: "33px", left: "510px", cursor: "pointer" }}>
             <svg xmlns="http://www.w3.org/2000/svg" width={19} height={19} fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
               <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />

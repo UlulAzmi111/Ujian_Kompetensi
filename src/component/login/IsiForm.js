@@ -36,6 +36,7 @@ const IsiForm = () => {
                     </label>
                     <input type="password" class="form-control" id="inputPassword4" />
                   </div>
+                  <button className="mt-3 ms-3 btn" style={{ borderRadius:'17px', background:'#416BF7', color:'white'}}>Submit</button>
                 </form>
               </div>
               <div className="col ms-3" style={{ marginTop:'60px' }}>

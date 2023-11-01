@@ -7,7 +7,7 @@ const ListUser = () => {
     <div className="screen" style={{ height: "720px" }}>
       <div style={{ paddingTop:'70px', paddingLeft:'130px'}}>
       </div>
-      <div className="row justify-content-center" style={{ paddingTop: "70px" }}>
+      <div className="row justify-content-center" style={{ paddingTop: "40px" }}>
         <h1 className="text-center" style={{ fontFamily: "Poppins", fontWeight: "900", color: "#31059A" }}>
           List User
         </h1>
